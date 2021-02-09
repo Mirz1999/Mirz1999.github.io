@@ -71,7 +71,7 @@ a:hover {
 
 .menu-item {
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     color: white;
     opacity: 80%;
     text-decoration: none;
@@ -117,7 +117,7 @@ a:hover {
 
 .dropdown-item {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     color: white;
     opacity: 80%;
     text-decoration: none;
