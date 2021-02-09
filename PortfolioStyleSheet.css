@@ -1,0 +1,371 @@
+body,
+html {
+    height: 100%;
+}
+
+a {
+    color: #003B46;
+}
+
+a:hover {
+    color: #003B46;
+    text-decoration-color: #003B46;
+    ;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(7, 87, 91);
+    ;
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    opacity: 25%;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.mira {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.navbar {
+    background: rgba(7, 87, 91, 0.25);
+    width: 80%;
+    height: 8%;
+    margin-top: 1%;
+    left: 50%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.navbar:hover {
+    background: rgba(7, 87, 91, 0.75);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.navbar li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu-item {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 80%;
+    text-decoration: none;
+    padding: 15px 20px;
+    position: relative;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.menu-item:hover {
+    color: white;
+    opacity: 100%;
+    text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.menu-item:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 10;
+    content: "";
+    display: block;
+    height: 2.5px;
+    left: 70%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.menu-item:hover:after {
+    width: 50%;
+    left: 23%;
+}
+
+.dropdown-menu {
+    background: rgba(7, 87, 91, 0.50);
+}
+
+.dropdown-item {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 80%;
+    text-decoration: none;
+    padding: 15px 20px;
+    position: relative;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.helloHome {
+    font-size: 50px;
+    font-family: "Helvetica Light", sans-serif;
+    color: white;
+    line-height: 130%;
+    position: absolute;
+    left: 4.6%;
+    margin: 5px;
+    background: rgba(7, 87, 91, 0.25);
+    padding-left: 1%;
+    padding-right: 5%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.helloHome:hover {
+    background: rgba(7, 87, 91, 0.75);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.doodle {
+    font-family: 'Pacifico', Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+}
+
+.rounded-circle {
+    position: absolute;
+    top: 105%;
+    width: 250px;
+    height: 250px;
+    left: 30%;
+    z-index: 2;
+}
+
+.container-fluid {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color: #003B46;
+    vertical-align: center;
+    padding-top: 1%;
+    padding-left: 20%;
+    margin-left: 30%;
+    background: white;
+    height: 250px;
+    width: 70%;
+    border-top-left-radius: 125px;
+    border-bottom-left-radius: 125px;
+    opacity: 75%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.container-fluid:hover {
+    opacity: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.bio {
+    font-size: 27px;
+    font-family: "Helvetica Light", sans-serif;
+    color: #003B46;
+    vertical-align: center;
+    padding-bottom: 2%;
+}
+
+.container {
+    padding-top: 4%;
+    line-height: 60px;
+}
+
+.table-striped {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 3%;
+}
+
+.thead {
+    background-color: rgba(61, 106, 102, 0.85);
+    border: none;
+}
+
+.tbody {
+    background-color: rgba(61, 106, 102, 0.50);
+}
+
+th,
+td {
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Montserrat';
+    color: #003B46;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.project {
+    font-size: 75px;
+    color: white;
+}
+
+hr {
+    border-top: 5px dashed white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.horiz {
+    display: inline-block;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.btn-card {
+    background-color: #07575b;
+    color: white;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-card:hover {
+    color: white;
+    opacity: 100%;
+    text-shadow: -0.3px -0.3px 0 white, 0.3px -0.3px 0 white, -0.3px 0.3px 0 white, 0.3px 0.3px 0 white;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.webCarousel {
+    position: absolute;
+    top: 450%;
+    left: 25%;
+    height: 480px;
+    width: 720px;
+}
+
+.gameCarousel {
+    position: absolute;
+    top: 600%;
+    left: 25%;
+    height: 480px;
+    width: 720px;
+}
+
+.otherCarousel {
+    position: absolute;
+    top: 750%;
+    left: 25%;
+    height: 480px;
+    width: 720px;
+}
+
+footer {
+    background-color: #07575b;
+    opacity: 100%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 90px;
+}
+
+footer>div {
+    flex: 1;
+    display: flex;
+    color: white;
+}
+
+.miraCodes {
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 24px;
+    padding-top: 1.1%;
+    padding-bottom: 1.1%;
+}
+
+.thirdsection {
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.copyright {
+    text-align: right;
+    font-family: "Helvetica Light", sans-serif;
+    padding-top: 1%;
+    padding-bottom: 0.6%;
+    padding-left: 70%;
+}
+
+.linkedin {
+    padding-top: 1.1%;
+}
+
+
+/*
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Project1">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-card" onclick="button1()">Details</a>
+            </div>
+        </div>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link  m-2 menu-item dropdown-toggle" href="#" data-toggle="dropdown">My Projects</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#Websites">Websites</a>
+                        <a class="dropdown-item" href="#Games">Games</a>
+                        <a class="dropdown-item" href="#Other">Other Projects</a>
+                    </div>
+                </li>
+*/
