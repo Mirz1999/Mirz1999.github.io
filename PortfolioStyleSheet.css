@@ -3,6 +3,11 @@ html {
     height: 100%;
 }
 
+.webbody {
+    background-image: url(images/Website.jpg);
+    background-size: cover;
+}
+
 a {
     color: #003B46;
 }
@@ -206,7 +211,16 @@ a:hover {
     padding-bottom: 2%;
 }
 
-.container {
+.projectTalk {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color: #003B46;
+    vertical-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.container1 {
     padding-top: 4%;
     line-height: 60px;
 }
@@ -282,28 +296,23 @@ hr {
     transition: all .5s;
 }
 
-.webCarousel {
-    position: absolute;
-    top: 450%;
-    left: 25%;
-    height: 480px;
-    width: 720px;
+.btn-card-opp {
+    background-color: white;
+    color: #07575b;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
-.gameCarousel {
-    position: absolute;
-    top: 600%;
-    left: 25%;
-    height: 480px;
-    width: 720px;
-}
-
-.otherCarousel {
-    position: absolute;
-    top: 750%;
-    left: 25%;
-    height: 480px;
-    width: 720px;
+.btn-card-opp:hover {
+    color: #07575b;
+    opacity: 100%;
+    text-shadow: -0.3px -0.3px 0 #07575b, 0.3px -0.3px 0 #07575b, -0.3px 0.3px 0 #07575b, 0.3px 0.3px 0 #07575b;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 footer {
@@ -346,26 +355,7 @@ footer>div {
     padding-top: 1.1%;
 }
 
-
-/*
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Project1">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-card" onclick="button1()">Details</a>
-            </div>
-        </div>
-
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link  m-2 menu-item dropdown-toggle" href="#" data-toggle="dropdown">My Projects</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#Websites">Websites</a>
-                        <a class="dropdown-item" href="#Games">Games</a>
-                        <a class="dropdown-item" href="#Other">Other Projects</a>
-                    </div>
-                </li>
-*/
+ul {
+    list-style-position: inside;
+    line-height: normal;
+}
