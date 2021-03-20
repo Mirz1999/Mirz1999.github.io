@@ -1,0 +1,310 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+/*PC ONLY*/
+
+@media (min-width: 992px) {
+    .navbar li {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    .navbar-custom,
+    .navbar-custom:hover {
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+    .navbar-custom {
+        opacity: 50%;
+    }
+    .navbar-custom:hover {
+        opacity: 90%;
+    }
+    /* stroke */
+    nav.stroke ul li a {
+        position: relative;
+    }
+    nav.stroke ul li a:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '';
+        color: transparent;
+        background: #f2f7f7;
+        height: 2.5px;
+    }
+    nav.stroke ul li a:hover:after {
+        width: 100%;
+    }
+    .helloHome {
+        position: absolute;
+        left: 4.6vw;
+        padding-left: 1%;
+        padding-right: 5%;
+    }
+     ::-webkit-scrollbar {
+        background-color: rgba(7, 87, 91);
+        ;
+        width: 15px;
+    }
+     ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.25);
+        opacity: 25%;
+        border-radius: 10px;
+    }
+     ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.75);
+    }
+    .rounded-circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 250px;
+        z-index: 2;
+    }
+    .container-fluid {
+        position: relative;
+        font-size: 25px;
+        color: #003B46;
+        vertical-align: center;
+        padding-top: 1%;
+        padding-left: 20%;
+        margin-left: 30%;
+        background: rgba(242, 247, 247, 0.75);
+        height: 250px;
+        width: 70%;
+        border-top-left-radius: 125px;
+        border-bottom-left-radius: 125px;
+    }
+    .container-fluid:hover {
+        background: rgba(242, 247, 247, 1);
+    }
+    .container-fluid,
+    .container-fluid:hover {
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+    .aboutparallax {
+        height: 70vh;
+        background-image: url(images/Home.jpg);
+    }
+    .bio {
+        font-size: 27px;
+        font-family: "Helvetica Light", sans-serif;
+        color: #003B46;
+        vertical-align: center;
+        padding-bottom: 2%;
+    }
+    .container1 {
+        padding-top: 4%;
+        line-height: 60px;
+    }
+    .biocontainer {
+        height: 70vh;
+        background-color: #f2f7f7;
+    }
+    .grid-container {
+        padding: 10px;
+    }
+    .grid-item {
+        padding: 20px;
+    }
+}
+
+
+/*MOBILE ONLY*/
+
+@media (max-width: 992px) {
+    .helloHome {
+        padding: 5%;
+        ;
+    }
+    .rounded-circle {
+        width: 50vh;
+        height: 50vh;
+    }
+    .container-fluid {
+        font-size: 25px;
+        color: #003B46;
+        vertical-align: center;
+        background: rgba(242, 247, 247, 0.90);
+    }
+    .aboutparallax {
+        height: 125vh;
+        background-image: url(images/Home.jpg);
+    }
+    .bio {
+        font-size: 20px;
+        color: #003B46;
+        vertical-align: center;
+        padding-bottom: 2%;
+    }
+    .container1 {
+        padding-top: 4%;
+        line-height: 40px;
+    }
+    .biocontainer {
+        height: 80vh;
+        background-color: #f2f7f7;
+    }
+    .title {
+        padding-top: 10%;
+    }
+}
+
+
+/*NAVBAR*/
+
+nav {
+    margin-left: 50%;
+    box-shadow: 0px 5px 0px #004c4c;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.navbar-custom {
+    background-color: #006666;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar-toggler {
+    color: #f2f7f7;
+}
+
+.navbar-brand {
+    padding-left: 3%;
+}
+
+.nav-link {
+    font-size: 20px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.nav-link:hover {
+    opacity: 100%;
+    text-shadow: -0.2px -0.2px 0 #f2f7f7, 0.2px -0.2px 0 #f2f7f7, -0.2px 0.2px 0 #f2f7f7, 0.2px 0.2px 0 #f2f7f7;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+
+
+/*PARALLAX BACKGROUND*/
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*INTRO CONTAINER*/
+
+.helloHome {
+    font-size: 50px;
+    font-family: "Helvetica Light", sans-serif;
+    color: #f2f7f7;
+    line-height: 130%;
+    background: rgba(7, 87, 91, 0.25);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.helloHome:hover {
+    background: rgba(7, 87, 91, 0.75);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.doodle {
+    font-family: 'Pacifico', Helvetica, sans-serif;
+    font-size: 30px;
+    color: #f2f7f7;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+/*TABLE*/
+
+.table-striped {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 3%;
+}
+
+.thead {
+    background-color: rgba(61, 106, 102, 0.85);
+    border: none;
+}
+
+.tbody {
+    background-color: rgba(61, 106, 102, 0.50);
+}
+
+th,
+td {
+    padding: 20px;
+    color: #f2f7f7;
+    text-align: center;
+    font-size: 25px;
+}
+
+.title {
+    font-size: 50px;
+    color: #003B46;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.projectType {
+    color: #003B46;
+}
+
+.projectType:hover {
+    color: #003B46;
+    text-decoration-color: #003B46;
+}
