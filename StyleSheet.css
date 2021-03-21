@@ -123,6 +123,17 @@ html {
     .grid-item {
         padding: 20px;
     }
+    .card {
+        width: 25%;
+        float: left;
+        margin: 4%;
+    }
+    .notemobile {
+        visibility: hidden;
+    }
+    .end {
+        height: 25vh;
+    }
 }
 
 
@@ -131,7 +142,6 @@ html {
 @media (max-width: 992px) {
     .helloHome {
         padding: 5%;
-        ;
     }
     .rounded-circle {
         width: 50vh;
@@ -163,6 +173,12 @@ html {
     }
     .title {
         padding-top: 10%;
+    }
+    .card {
+        margin: 15%;
+    }
+    .end {
+        height: 40vh;
     }
 }
 
@@ -261,10 +277,11 @@ nav ul li a:before {
 .table-striped {
     margin-left: 5%;
     margin-right: 5%;
-    width: 90%;
+    width: 90vw;
     padding-top: 10%;
     padding-bottom: 10%;
     margin-bottom: 3%;
+    font-size: 0.9vw;
 }
 
 .thead {
@@ -307,4 +324,107 @@ td {
 .projectType:hover {
     color: #003B46;
     text-decoration-color: #003B46;
+}
+
+.horiz {
+    display: inline-block;
+    width: 25%;
+}
+
+.btn-card {
+    background-color: #07575b;
+    color: #f2f7f7;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-card:hover {
+    color: #f2f7f7;
+    opacity: 100%;
+    text-shadow: -0.3px -0.3px 0 #f2f7f7, 0.3px -0.3px 0 #f2f7f7, -0.3px 0.3px 0 #f2f7f7, 0.3px 0.3px 0 #f2f7f7;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-card-opp {
+    background-color: #f2f7f7;
+    color: #07575b;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-card-opp:hover {
+    color: #07575b;
+    opacity: 100%;
+    text-shadow: -0.3px -0.3px 0 #07575b, 0.3px -0.3px 0 #07575b, -0.3px 0.3px 0 #07575b, 0.3px 0.3px 0 #07575b;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.project {
+    font-size: 75px;
+    color: #f2f7f7;
+}
+
+.notemobile {
+    color: #07575b;
+    font-size: 18px;
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+.footertitle {
+    font-weight: bold;
+    font-size: 50px;
+    color: #f2f7f7;
+}
+
+.centertext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: #fdfcfa;
+    color: rgba(25, 23, 22);
+}
+
+.fa-instagram:hover {
+    background: #E1306C;
+    color: white;
+}
+
+.fa-linkedin:hover {
+    background: #007bb5;
+    color: white;
+}
+
+footer {
+    background-color: rgba(7, 87, 91, 0.75);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.projectTalk {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color: #003B46;
+    vertical-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
