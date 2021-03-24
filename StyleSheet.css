@@ -152,8 +152,9 @@ html {
         padding: 5%;
     }
     .rounded-circle {
-        width: 50vh;
-        height: 50vh;
+        width: 40vh;
+        height: 40vh;
+        margin: 5%;
     }
     .container-fluid {
         font-size: 25px;
