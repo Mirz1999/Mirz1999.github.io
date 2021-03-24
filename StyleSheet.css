@@ -102,6 +102,12 @@ html {
         height: 70vh;
         background-image: url(images/Home.jpg);
     }
+    .homeparallax {
+        height: 70vh;
+    }
+    .tableparallax {
+        height: 120vh;
+    }
     .bio {
         font-size: 27px;
         font-family: "Helvetica Light", sans-serif;
@@ -155,6 +161,12 @@ html {
     .aboutparallax {
         height: 125vh;
         background-image: url(images/Home.jpg);
+    }
+    .homeparallax {
+        height: 100vh;
+    }
+    .tableparallax {
+        height: 150vh;
     }
     .bio {
         font-size: 20px;
