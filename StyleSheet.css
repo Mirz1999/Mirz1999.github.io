@@ -108,6 +108,9 @@ html {
     .tableparallax {
         height: 120vh;
     }
+    .workparallax {
+        height: 120vh;
+    }
     .bio {
         font-size: 27px;
         font-family: "Helvetica Light", sans-serif;
@@ -166,6 +169,9 @@ html {
         height: 100vh;
     }
     .tableparallax {
+        height: 150vh;
+    }
+    .workparallax {
         height: 150vh;
     }
     .bio {
