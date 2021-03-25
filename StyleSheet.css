@@ -174,13 +174,16 @@ html {
     .rounded-circle {
         width: 40vh;
         height: 40vh;
-        margin: 5%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .container-fluid {
         font-size: 25px;
         color: #003B46;
         vertical-align: center;
         background: rgba(242, 247, 247, 0.90);
+        padding-top: 5%;
     }
     .aboutparallax {
         height: 125vh;
@@ -234,6 +237,9 @@ html {
         left: 50%;
         transform: translateX(-50%) scale(2);
         margin-bottom: 5%;
+    }
+    .aboutMePoints {
+        padding-top: 5%;
     }
 }
 
