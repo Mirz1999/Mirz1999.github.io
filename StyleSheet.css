@@ -111,6 +111,9 @@ html {
     .workparallax {
         height: 120vh;
     }
+    .projectparallax {
+        height: 70vh;
+    }
     .bio {
         font-size: 27px;
         font-family: "Helvetica Light", sans-serif;
@@ -141,6 +144,20 @@ html {
     }
     .end {
         height: 25vh;
+    }
+    .projectTalk {
+        float: left;
+        width: 50%;
+        padding-top: 4px;
+        font-size: 1.5vw;
+    }
+    .visitWebsite {
+        position: absolute;
+        top: 82%;
+        left: 50%;
+    }
+    .mirror {
+        font-size: 1.3vw;
     }
 }
 
@@ -175,6 +192,9 @@ html {
     .workparallax {
         height: 150vh;
     }
+    .projectparallax {
+        height: 70vh;
+    }
     .bio {
         font-size: 20px;
         color: #003B46;
@@ -196,6 +216,20 @@ html {
     }
     .end {
         height: 40vh;
+    }
+    .projectTalk {
+        padding-top: 4px;
+        font-size: 3vw;
+    }
+    video {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .visitWebsite {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) scale(2);
     }
 }
 
@@ -438,10 +472,7 @@ footer {
 }
 
 .projectTalk {
-    font-size: 25px;
-    font-family: Helvetica, sans-serif;
     color: #003B46;
     vertical-align: center;
-    margin-bottom: 2%;
     margin-top: 2%;
 }
