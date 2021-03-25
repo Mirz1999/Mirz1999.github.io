@@ -114,6 +114,9 @@ html {
     .projectparallax {
         height: 70vh;
     }
+    .titleparallax {
+        height: 20%;
+    }
     .bio {
         font-size: 27px;
         font-family: "Helvetica Light", sans-serif;
@@ -192,8 +195,8 @@ html {
     .workparallax {
         height: 150vh;
     }
-    .projectparallax {
-        height: 70vh;
+    .titleparallax {
+        height: 10%;
     }
     .bio {
         font-size: 20px;
@@ -230,6 +233,7 @@ html {
         position: relative;
         left: 50%;
         transform: translateX(-50%) scale(2);
+        margin-bottom: 5%;
     }
 }
 
@@ -475,4 +479,9 @@ footer {
     color: #003B46;
     vertical-align: center;
     margin-top: 2%;
+}
+
+.centered {
+    text-align: center;
+    text-shadow: rgba(7, 87, 91, 0.75);
 }
