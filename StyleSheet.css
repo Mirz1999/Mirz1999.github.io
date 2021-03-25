@@ -155,9 +155,7 @@ html {
         font-size: 1.5vw;
     }
     .visitWebsite {
-        position: absolute;
-        top: 82%;
-        left: 50%;
+        position: relative;
     }
     .mirror {
         font-size: 1.3vw;
