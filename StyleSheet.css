@@ -160,6 +160,16 @@ html {
     .mirror {
         font-size: 1.3vw;
     }
+    .horizontal {
+        float: left;
+        width: 49%;
+    }
+    .carouselPC {
+        position: relative;
+        left: 25%;
+        top: 25%;
+        transform: translateX(-50%)translateY(-25%)
+    }
 }
 
 
@@ -219,7 +229,7 @@ html {
         margin: 15%;
     }
     .end {
-        height: 40vh;
+        height: 100vh;
     }
     .projectTalk {
         padding-top: 4px;
@@ -489,3 +499,27 @@ footer {
     text-align: center;
     text-shadow: rgba(7, 87, 91, 0.75);
 }
+
+.carousel {
+    width: 640px;
+    height: 360px;
+}
+
+
+/*
+
+        <div class="container projectTalk mirror">
+            <em>
+                This Twitter Bot is meant to be running at all times and send live notifications to any phone when a certain account tweets something. You can choose which phone to send the notifications to, and which twitter account to enable notifications from.
+            </em>
+            <br>
+            <br>
+            <ul style="line-height: 50px;">
+                <li>Programmed with Python.</li>
+                <li>Using <em>Tweepy</em>, a Python library for accessing the Twitter API, to retrieve the tweet stream.</li>
+                <li>Using PushBullet Notifications to send notifications to your phone.</li>
+                <li>Securely shared for others on Github, with hidden API using Python environ to prevent API stealing.</li>
+                <li>Deployed using Heroku PaaS</li>
+            </ul>
+        </div>
+*/
